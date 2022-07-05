@@ -31,7 +31,7 @@ github_username:  rustic-z
 
 markdown: kramdown  # [ maruku | rdiscount | kramdown | redcarpet ]
 kramdown:
-  input:          GFM
+#  input:          GFM
   syntax_highlighter: rouge
   # footnote_nr:   1
   # entity_output: as_char
