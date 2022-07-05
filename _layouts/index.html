@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include head.html %}
+
+<body>
+    {% include header.html %}
+
+    <div id="m-content" class="container">
+        <div class="media" style="width:90%;">
+            <div class="media-right media-top" style="margin:auto; width:90%;">
+                <img class="float-end" alt="纪念" src="/assets/img/index.jpeg" height="500">
+            </div>
+            <div class="media-body" style="margin:auto; width:69%;">
+                <div id="m-content-content" style="width:73%;">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
