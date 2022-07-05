@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 {% include head.html %}
 
 <body>
